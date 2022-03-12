@@ -1,5 +1,24 @@
-.col{
-    width: 100px;
-    height: 100px;
-    background-color: aqua;
+body{
+    background-color: rgba(8,59,76,255);
+}
+
+.numeri{
+    width: calc((100% - 100px) / 7)  ;
+    height: 20%;
+    margin: 5px;
+    background-color: rgba(19,137,178,255);
+    display: flex;
+    justify-content: center;
+    align-items :center;
+    font-weight: bold;
+    
+}
+.FizzBuzz{
+    background-color: rgba(240,70,111,255);
+}
+.Buzz{
+    background-color: rgba(255,209,102,255);
+}
+.Fizz{
+    background-color: rgba(11,214,161,255);
 }
